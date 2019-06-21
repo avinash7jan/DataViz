@@ -1,0 +1,361 @@
+@media screen and (min-width:1575px) {
+	.fix_width{
+		width: 1285px;
+		left: 50%;
+		margin-left: -642px;
+	}
+}
+
+@media screen and (max-width:1242px) {
+	.autoCad_txt_media{
+		margin-top: 0px;
+	}
+}
+
+@media screen and (max-width:1024px) {
+	.world_chart .highcharts-tooltip div{
+		width: 75px !important;
+	}
+
+}
+
+@media (max-width: 991px){
+	.half_chart_marg_top{
+		margin-top:0px;
+	}
+	.btn_grp li {
+		/* margin-bottom: 10px; */
+		border-radius: 4px;
+	}
+	
+}
+
+
+
+@media screen and (max-width:768px) {
+	.select_active + .left_vertical_line{
+		border-left: 5px solid #66BFE9;
+		position: absolute;
+		left: 230px;
+		height: 24px;
+		margin-top: -24px;
+	}
+	.header_active + .left_vertical_line{
+		border-left: 5px solid #66BFE9;
+		position: absolute;
+		left: 230px;
+		height: 24px;
+		margin-top: -24px;
+	}
+	.left_main_menu:hover .select_active + .left_vertical_line{
+		border-left: none;
+	}	
+	.left_main_menu:hover .header_active + .left_vertical_line{
+		border-left: none;
+	}
+	
+	.left_main_menu{
+		margin-left: -230px;
+	}
+	 .left_main_menu:hover{
+		margin-left: 0px ;
+	} 
+	/* .iphoneDashboard:hover{
+		margin-left: 0px ;
+	}
+	.tabDashBoard{
+		margin-left: -230px;
+	} */
+	
+	
+	
+	.leftScroll .scrollbar-container{
+		display:none;
+	}
+	
+	.left_main_menu:hover .leftScroll .scrollbar-container{
+		display:block;
+	}
+	
+	.left_main_menu:hover ~ .main_bg{
+		margin-left: 50px;
+	}
+	.main_bg {
+		margin-left: 50px;
+	}
+
+	.left_main_accord .com_hover .panel-heading .panel-title>a::before {
+		float: right;
+		margin-right: 0px; 
+	}
+	
+	.left_main_menu:hover .left_main_accord .com_hover .panel-heading .panel-title>a::before{
+		float: left;
+		margin-right: 12px;
+	}
+	
+	.left_main_accord .panel-heading .panel-title>a[aria-selected=false]:after {
+		display:none;
+	}
+	.left_main_accord .panel-heading .panel-title>a[aria-selected=true]:after {
+		display:none;
+	}
+	.left_main_menu:hover .left_main_accord .panel-heading .panel-title>a[aria-selected=true]:after{
+		display:block;
+	}
+	.left_main_menu:hover .left_main_accord .panel-heading .panel-title>a[aria-selected=false]:after{
+		display:block;
+	}
+	
+	/*Dashboard right arrow appear*/
+	.left_main_menu:hover .left_main_accord .dashboard .panel-heading .panel-title>a[aria-selected=false]:after{
+		display:none !important;
+	}
+	.left_main_accord .dashboard .panel-heading .panel-title>a[aria-selected=false]:after{
+		display:none !important;
+	}
+	.left_main_menu:hover .left_main_accord .dashboard .panel-heading .panel-title>a[aria-selected=true]:after{
+		display:none !important;
+	}
+	.left_main_accord .dashboard .panel-heading .panel-title>a[aria-selected=true]:after{
+		display:none !important;
+	}
+	/*Dashboard right arrow appear*/
+	
+	/*==========Modified Left menu css start here=========*/
+	
+	.left_main_menu:hover .area_expand_arrow ,.left_main_menu:hover .area_collapse_arrow{
+		display:block;
+	}
+	.area_expand_arrow,.area_collapse_arrow{
+		display:none;
+	}
+	/*==========Modified left menu css end here===========*/
+	
+	
+	
+	.left_main_accord:hover .com_menu .panel-heading .panel-title>a[aria-selected=false]:after{
+		display:none;
+	}
+	.left_main_accord:hover .com_menu .panel-heading .panel-title>a[aria-selected=true]:after{
+		display:none;
+	}
+	
+	.left_main_accord .panel-default>.panel-heading+.panel-collapse>.panel-body {
+		display:none;
+	}
+	.left_main_menu:hover .left_main_accord .panel-default>.panel-heading+.panel-collapse>.panel-body{
+		display:block;
+	} 
+	/*==========Modified Left menu css start here=========*/
+	.modified_panel {
+		display:none;
+	}
+	.left_main_menu:hover .modified_panel{
+		display:block;
+	}
+	 
+	/*==========Modified left menu css end here===========*/
+	
+	.bottom_link .panel-heading .panel-title>a::before {
+		background: url(../images/navigation.png);
+		width: 20px;
+		height: 20px;
+	}
+
+	.left_main_menu:hover .bottom_link .panel-heading .panel-title>a::before{
+		display:none;
+	}
+	
+	.separator1,.separator{
+		display:none;
+	}
+	
+	.left_main_menu:hover .separator1{
+		display:block;
+		border-top: 1px solid #666;
+	}
+	.left_main_menu:hover .separator{
+		display:block;
+		border-top: 1px solid #666;
+	}
+
+	.ul_mobile_view li{
+		margin-bottom:10px;
+	}
+	.btn_seperator{
+		display:none;
+	}
+	.btn_grp li{
+		margin-bottom:10px;
+		border-radius: 4px;
+	}
+	
+	.com_back_li1{
+		width:100%;
+	}
+	.com_back_li11{
+		border-right:none;
+	}
+	.btn_grp .com_back_li1 {
+		height: unset;
+	}
+	.com_back_li11_border{
+		border-left: none;
+		height:unset;
+	}
+	.nov_icons{
+		right: 101px;
+	}
+	
+	
+	.mob_view{
+		/* right: 101px; */
+		width:50%;
+		float:left;
+	}
+	
+	.half_chart_marg_top{
+		margin-top:0px;
+	}	
+
+}
+
+@media screen and (max-width:450px) {
+	.purchaseDate3{
+		height:50px;
+	}
+	.media_marg_bot{
+		margin-top:10px;
+	}
+}
+
+
+@media screen and (max-width:414px) {
+	.chart_back{
+		margin-top:30px;
+	}
+	.dash_backg{
+		height: 257px;
+	}
+	.select_active + .left_vertical_line{
+		border-left: none;
+	}	
+	.header_active + .left_vertical_line{
+		border-left: none;
+	}
+	.mobile_logo, .mobile_view,.mobile_close{
+		display:block;
+	}
+	.logo1,.logo2,.iphoneDashboard{
+		display:none;
+	}
+	.main_bg {
+		margin-left: 0px;
+	}
+	.left_main_menu{
+		margin-left: 0px;
+	}
+	
+	.left_main_accord .com_hover .panel-heading .panel-title>a::before {
+		display: block;
+		content: "";
+		float: left;
+		margin-right: 12px;
+		margin-top: 0px;
+	}
+	.left_main_accord .panel-default>.panel-heading+.panel-collapse>.panel-body {
+		display:block;
+	}
+	.left_main_menu:hover .left_main_accord .panel-default>.panel-heading+.panel-collapse>.panel-body{
+		display:block;
+	} 
+	.left_main_menu:hover .bottom_link .panel-heading .panel-title>a::before{
+		display:none;
+	}
+	
+	.left_main_accord .panel-heading .panel-title>a[aria-selected=true]:after {
+		display:block;
+	}
+	.bottom_link .panel-heading .panel-title>a::before {
+		background: url(../images/navigation.png);
+		width: 20px;
+		height: 20px;
+		display:none !important;
+	}
+	.left_main_menu .left_main_accord .panel-heading .panel-title>a[aria-selected=false]:after{
+		display:block;
+	}
+	
+	.left_main_menu:hover ~ .main_bg{
+		margin-left: 0px;
+	}
+	.text_right{
+		font-size:32px;
+		font-weight:200;
+	}
+	.separator1,.separator{
+		display:block;
+	}
+	
+	/*==========Modified Left menu css start here=========*/
+	.modified_panel {
+		display:block;
+	}
+	
+	.area_expand_arrow,.area_collapse_arrow{
+		display:block;
+	}
+	/*==========Modified left menu css end here===========*/
+
+	.question{
+		margin-right: 20px;
+	}
+
+	.notice1:before,.notice1:after{
+		right: 69px;
+	}
+
+	.notification{
+		margin-right: 20px;
+	}
+
+	.notification_box:before,.notification_box:after{
+		right: 119px;
+	}
+	.purchaseDate3{
+		width:91.666%
+	}
+	.purchaseDate2{
+		display:none;
+	}
+	.purchaseDate1{
+		display: block;
+		margin-top: 31px;
+		padding-left: 7px;
+		left: 26px;
+	}
+	.autoCad_txt1{
+		margin-top:0px;
+	}
+	.autoCad_txt2{
+		margin-top:0px;
+	}
+	.purchaseDate2{
+		margin-top: 38px;
+	}
+	.nov_icons{
+		right: 61px;
+	}
+	.mob_view{
+		/* right: 61px; */
+		width:100%;
+		float:left;
+	}
+	
+}
+/*@media screen and (max-width:1024px){
+	.dis{
+		display:none;
+	}*/
+}
