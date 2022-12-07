@@ -22,7 +22,7 @@
   "homepage": "https://github.com/aether7/adessa-frontend-test#readme",
   "dependencies": {
     "consolidate": "^0.14.5",
-    "express": "^4.14.0",
+    "express": "^4.17.3",
     "handlebars": "^4.0.6",
     "highcharts": "^6.0.4",
     "highcharts-map": "^0.1.7",
